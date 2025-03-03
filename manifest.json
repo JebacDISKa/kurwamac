@@ -1,7 +1,7 @@
 {
     "name": "Moja Aplikacja",
     "short_name": "Aplikacja",
-   "start_url": "./index.html"
+   "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "description": "Strona działająca jako aplikacja mobilna",
