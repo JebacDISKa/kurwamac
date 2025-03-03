@@ -138,6 +138,14 @@
     </div>
 
     <script>
+        
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker
+              .register("sw.js")
+              .then(() => console.log("Service Worker zarejestrowany!"))
+              .catch((error) => console.log("Błąd Service Workera:", error));
+          }
+        
         function goToMainScreen() {
             document.getElementById('start-screen').classList.add('hidden');
             document.getElementById('main-screen').classList.remove('hidden');
